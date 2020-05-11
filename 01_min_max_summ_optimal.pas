@@ -1,9 +1,9 @@
-﻿Program z1;
+﻿Program min_max_summ;
 const N=1000;
 var
   a: integer;
   i, min, k, max, s: integer;
-BEGIN
+BEGIN 
   readln(k);
   min := 10001;
   max := -1;
