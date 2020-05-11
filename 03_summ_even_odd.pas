@@ -9,7 +9,7 @@ BEGIN
   For i := 1 to N do begin
     readln(a);
     if a mod 2 = 0 then
-      summ_evens := summ_evens + a;
+      summ_evens := summ_evens + a
     else
       summ_odds := summ_odds + a;
   end;
