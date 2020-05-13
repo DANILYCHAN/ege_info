@@ -1,4 +1,4 @@
-﻿Program min_max_summ; {проверка работоспособности приложения гита}
+﻿Program min_max_summ;
 const N=1000;
 var
   a: integer;
