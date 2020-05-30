@@ -2,6 +2,10 @@
 Var
     n_21, n_3, n_7, n_x, n_n, number, number_copmosition_multiple_21, i : integer;
 BEGIN
+    n_21 := 0;
+    n_3 := 0;
+    n_7 := 0;
+    n_x := 0;
     write('Количество чисел ');
     read(n_n);
     for i := 1 to n_n do begin
@@ -14,6 +18,6 @@ BEGIN
             n_7 += 1;
         end else n_x += 1;
     end;
-    number_copmosition_multiple_21 := (n_21 * n_x) + (n_21 * n_3) + (n_21 * n_7) + ((sqr(n_21) - n_21) div 2);
+    number_copmosition_multiple_21 := (n_21 * n_x) + (n_21 * n_3) + (n_21 * n_7) + (n_7 * n_3) + ((sqr(n_21) - n_21) div 2);
     Writeln('Количество чисел, делящиеся на 21 в произведении ', number_copmosition_multiple_21);
 END.
