@@ -2,7 +2,7 @@
 Var 
   number_even, number_odd, number_numbers, number_composition_even, number, i : integer;
 BEGIN
-  writeln('Количество чисел');
+  write('Количество чисел ');
   read(number_numbers);
   for i:= 1 to number_numbers do begin
     read(number);
