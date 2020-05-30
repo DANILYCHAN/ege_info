@@ -1,6 +1,6 @@
 ﻿Program pairs_divided_by_21;
 Var
-  n_21, n_3, n_7, n_x, n_n, number, number_copmosition_multiple_21, i : integer;
+    n_21, n_3, n_7, n_x, n_n, number, number_copmosition_multiple_21, i : integer;
 BEGIN
     write('Количество чисел ');
     read(n_n);
