@@ -29,6 +29,7 @@ begin
         digit := n mod 10;
         if digit > max then
             max := digit;
+        n := n div 10;
     end;
     MaxDigit := max;
 end;
