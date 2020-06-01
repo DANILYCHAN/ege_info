@@ -9,9 +9,13 @@ Var
 BEGIN
     Write('Введите число ');
     Readln(n);
-    While n > 0 do begin
-        write(n mod 2);
-        n := n div 2;
+    if n = 0 then begin
+    Write(n);
+    end else begin
+        While n > 0 do begin
+            write(n mod 2);
+            n := n div 2;
+        end;
     end;
 END.
     
