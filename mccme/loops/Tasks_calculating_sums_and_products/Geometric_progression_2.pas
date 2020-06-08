@@ -1,5 +1,5 @@
-{
-     Источник: informatics.mccme.ru, ???.
+﻿{
+     Источник: informatics.mccme.ru, 319.
      
      Вход: 
             a - основание геометрической прогрессии, 
@@ -13,10 +13,13 @@ VAR
 BEGIN
     Read(a, n);
     k := 1;
+    summ := 0;
+    
     For i := 0 to n do begin
         summ += k;
         k *= a;
     end;
+    
     Writeln(summ);
 END.
     
