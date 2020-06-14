@@ -14,7 +14,7 @@ BEGIN
     Readln(U);
     Readln(N);
     num := 0;
-    for i := 1 to (U - 1) do begin
+    for i := 0 to (U - 1) do begin
         a[i] := 0;
     end;
     
