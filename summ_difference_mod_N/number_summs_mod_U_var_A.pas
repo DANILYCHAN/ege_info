@@ -9,7 +9,7 @@ Var
     num: Integer;{Количество пар}
     i, j: Integer;
     N: Integer;{Количество чисел до 10000}
-    U: Integer;{Чётное число, на которое необходимо делить}
+    U: Integer;{Число, на которое необходимо делить}
 BEGIN
     Readln(U);
     Readln(N);
