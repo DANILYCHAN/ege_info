@@ -24,7 +24,7 @@ BEGIN
     max_summ := -1;
     k := 0;
     for i := 1 to N - DELTA do begin
-        for j := DELTA to N do begin
+        for j := i + DELTA to N do begin
             k := a[i] + a[j];
             if k > max_summ then begin
                 max_summ := k;
